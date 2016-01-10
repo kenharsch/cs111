@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :posts
   resources :memberships
   resources :groups
   resources :assignments
